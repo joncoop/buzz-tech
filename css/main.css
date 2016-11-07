@@ -1,0 +1,157 @@
+/*** sectioning elements ***/
+
+body {
+  background-color: #555555;
+  color: #EEEEEE;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+header {
+  border-bottom: 4px solid #EEEEEE;
+  padding-bottom: 8px;
+}
+
+main {
+
+}
+
+footer {
+  border-top: 2px solid #EEEEEE;
+  padding-top: 5px;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  color: #5E889E;
+  font-family: sans-serif;
+  font-size: 4.1rem;
+  margin: 0;
+}
+
+h2 {
+  color: #5E889E;
+  font-size: 2.4rem;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+p.mission {
+    color: #EEEEEE;
+    font-size: 2.0rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+p.blurb {
+  text-align: center;
+}
+
+p.copy {
+    color: #5E889E;
+    font-size: 1.4rem;
+    margin: 0;
+    text-align: center;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+img.logo {
+    float: left;
+    margin-right: 20px;
+    height: 60px;
+}
+
+img.icon {
+  padding: 1.2rem;
+}
+
+/*** link styles ***/
+
+a:link {
+  color: #5E889E;
+}
+
+a:visited {
+  color: #5E889E;
+}
+
+a:hover {
+  color: #7DB5D2;
+}
+
+a:active {
+  color: #7DB5D2;
+}

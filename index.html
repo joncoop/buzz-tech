@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>BuzzTech Industries</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/odin.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+</head>
+
+<body>
+
+  <!-- start making your grid here -->
+  <div class="container-lg">
+    <header>
+      <div class="row">
+        <div class="col-xs-12 center-vertical">
+          <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+          <h1>BuzzTech</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="owl-carousel">
+    				<img src="img/slide1.jpg" alt="slide 1">
+    				<img src="img/slide2.jpg" alt="slide 2">
+    				<img src="img/slide3.jpg" alt="slide 3">
+    			</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-1 hide-xs"></div>
+
+        <div class="col-sm-10">
+          <p class="mission">It is our mission to meet your needs by providing a seamless integration of high-quality services, state-of-the-art products, and a cutting-edge social media presence.</p>
+        </div>
+
+        <div class="col-sm-1 hide-xs"></div>
+      </div>
+
+      <div class="row gutter-double">
+        <div class="col-md-4">
+          <img class="icon center" src="img/innovate.png">
+    			<h2>Innovate</h2>
+    			<p class="blurb">Lightbulbs symbolize ideas. And we have plenty. Also, we wear ties. The point is, we look good while we're thinking of stuff. Unless it's casual Friday. </p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="icon center" src="img/collaborate.png">
+          <h2>Collaborate</h2>
+          <p class="blurb">We have very important meetings where we share ideas. Sharing is good. Diversity is also good. The icon above reflects both of those values.</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="icon center" src="img/grow.png">
+    			<h2>Grow</h2>
+    			<p class="blurb">We don't just talk about success. We make graphs. Lots and lots of graphs. And our graphs always slope up and to the right.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="copy">&copy;2015 BuzzTech | <a href="#">Privacy</a> | <a href="#">FAQ</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- include any javascript below this line -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+    	$(".owl-carousel").owlCarousel({
+    		autoplay: true,
+    		items: 1,
+    		loop: true,
+    		margin: 20
+    	})
+    })
+  </script>
+
+</body>
+</html>
